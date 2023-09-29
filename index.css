@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 600px;
+    margin-top: 100px;
+
+    justify-content: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 2px hsl(224, 23%, 55%);
+}
+
+.card__image {
+    position: absolute;
+    top: -30px;
+    width: 300px;
+    border-radius: 5% 5% 0% 00%;
+}
